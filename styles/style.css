@@ -47,10 +47,6 @@ body {
     margin: 0 auto;
 }
 
-.right-menu {
-    display: none;
-}
-
 .nav {
     height: 100px;
 }
@@ -102,6 +98,7 @@ body {
 }
 
 .header {
+    position: relative;
     height: 1038px;
     background: url(../images/backgrounds/delote-beauty.jpg);
     background-position: center;
@@ -140,6 +137,54 @@ body {
     line-height: 1.4;
     font-weight: 700;
 }
+
+
+
+.right-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 475px;
+    background-color: #111111;
+    padding-top: 42px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 42px;
+}
+
+.right-menu__close-btn {
+    margin-bottom: 176px;
+}
+.right-menu__close-btn img { width: 28px; }
+
+.right-menu__description {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.right-menu__section {
+    margin-bottom: 60px;
+}
+.right-menu__section:last-child { margin-bottom: 0; }
+
+.right-menu__section-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.right-menu__section-item {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.right-menu__section-item:last-child { margin-bottom: 0; }
 
 
 .content {
@@ -311,6 +356,7 @@ body {
     font-weight: 400;
     margin-bottom: 15px;
 }
+.footer__info-item-point:last-child { margin-bottom: 0; }
 
 .footer__info-item-instagram-icon {
     width: 36px;
