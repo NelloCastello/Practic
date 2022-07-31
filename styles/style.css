@@ -151,10 +151,17 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 42px;
+    display: none;
+}
+.right-menu.--active {
+    display: block;
 }
 
 .right-menu__close-btn {
     margin-bottom: 176px;
+    padding: 0;
+    background: none;
+    border: none;
 }
 .right-menu__close-btn img { width: 28px; }
 

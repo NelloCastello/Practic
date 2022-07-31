@@ -25,12 +25,12 @@
                 <a href="/" class="nav__link">Акции</a>
                 <a href="/" class="nav__link">Отзывы</a>
                 <a href="/" class="nav__link">Контакты</a>
-                <button class="nav__menu-btn"><img src="images/icons/menu.svg" alt="Меню"></button>
+                <button class="nav__menu-btn" onclick="openRightMenu()"><img src="images/icons/menu.svg" alt="Меню"></button>
             </div>
         </nav>
 
         <div class="right-menu">
-            <div class="right-menu__close-btn"><img src="images/icons/close.svg" alt="Закрыть меню"></div>
+            <button class="right-menu__close-btn" onclick="closeRightMenu()"><img src="images/icons/close.svg" alt="Закрыть меню"></button>
             <p class="right-menu__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, adipiscing amet in egestas sem dui, arcu faucibus scelerisque. Nisl est felis id volutpat. Sed dolor fermentum amet lectus nibh quis. Tortor donec pellentesque leo ac placerat. Morbi.</p>
             
             <section class="right-menu__section">
@@ -157,5 +157,7 @@
         </div>
     </footer>
 
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
